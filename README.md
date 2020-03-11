@@ -7,10 +7,11 @@ Code written in **pycharm** ide (though **jupyter notebook** + **anaconda** are 
   - applying filters (blur, median, emboss, poster etc.)
   - colour filters
  
- Note that you can convert the python code to **executable** (.exe file) to enable it to run as a standalone using - I used **pyinstaller** from cmd window:
-  "pyinstaller -w -F -i "icon.ico" SIE.py"
+You can convert the python code to **executable** (.exe file) to enable it to run as a standalone app - just make sure it is in the same folder as other dependent files. I used **pyinstaller** to compile the python code. So from a cmd window:
  
-Note, first time that I ran the executable I got "Failed to execute script pyi_rth_pkgres". Reinstalled pyinstaller with github version to fix the problem:
-  pip uninstall pyinstaller
-  pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+pyinstaller -w -F -i "icon.ico" SIE.py
  
+Note, the first time that I ran the executable I got "Failed to execute script pyi_rth_pkgres". To fix the problem I reinstalled pyinstaller with the github version.
+
+pip uninstall pyinstaller<br/>
+pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
