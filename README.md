@@ -10,7 +10,9 @@ Code written in **pycharm** ide (though **jupyter notebook** + **anaconda** are 
 You can convert the python code to **executable** (.exe file) to enable it to run as a standalone app - just make sure it is in the same folder as other dependent files. I used **pyinstaller** to compile the python code. So from a cmd window:
  
 pyinstaller -w -F -i "icon.ico" SIE.py
- 
+
+The executable will be in the dist folder.
+
 Note, the first time that I ran the executable I got "Failed to execute script pyi_rth_pkgres". To fix the problem I reinstalled pyinstaller with the github version.
 
 pip uninstall pyinstaller<br/>
