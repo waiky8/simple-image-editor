@@ -17,3 +17,6 @@ Note, the first time that I ran the executable I got "Failed to execute script p
 
 pip uninstall pyinstaller<br/>
 pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+
+Sample.<br>
+![alt text](https://github.com/waiky8/simple-image-editor/blob/master/screenshots/screenshot1.png)
