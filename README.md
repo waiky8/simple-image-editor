@@ -1,4 +1,4 @@
-# simple image editor
+# Simple Image Editor
 First attempt at **python** programming. Went with **tkinter** as gui platform and **pil** (pillow) for image processing.
 Code written in **pycharm** ide (though **jupyter notebook** + **anaconda** are also good). Learned how to install and import python modules and work with widgets (sliders, buttons, checkboxes etc). Functionality include:
   - adjusting colour, brightness & contrast
