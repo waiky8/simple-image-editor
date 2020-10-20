@@ -8,6 +8,7 @@ Functionality include:
   - image resizing
   - applying filters (blur, median, emboss, poster etc.)
   - colour filters
+  - save new image 
  
 You can convert the python code to **executable** (.exe file) to enable it to run as a standalone app - just make sure it is in the same folder as other dependent files!
 **pyinstaller** was used to compile the python code - from a cmd window:
